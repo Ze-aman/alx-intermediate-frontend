@@ -21,9 +21,7 @@ npm install -g sass@1.77.8
 sass --version
 
 # Step 6: Test compilation
+# Cr# Step 6: Test compilation
 # Create a sample file (style.scss) and compile it to style.css
 echo "$color: blue; body { background-color: $color; }" > style.scss
 sass style.scss style.css
-
-# Step 7: Confirm that style.css was generated successfully
-cat style.css
